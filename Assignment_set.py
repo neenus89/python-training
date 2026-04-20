@@ -1,6 +1,12 @@
 
-actual_set = {1, 2, 4, 6, 8, 10}
-n = 10
+n = int(input("Enter a number   "))
+
+user_input = input("Enter numbers separated by spaces upto n   ")
+
+actual_set = set()
+for x in user_input.split():
+    actual_set.add(int(x))
+
 
 expected_set = set()
 i = 1
@@ -9,8 +15,7 @@ while i <= n:
     expected_set.add(i)
     i = i + 1
 
-print("Expected numbers:", expected_set)
-print("Actual numbers:", actual_set)    
+print("Expected numbers:", expected_set)  
 
 
 #Subtract the sets to find the difference
