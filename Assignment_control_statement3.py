@@ -4,4 +4,4 @@ limit = 10
 
 print("----- Multiplication Table of", n, "-----")
 for i in range(1, limit + 1):
-    print(n, 'x', i, '=', n * i)
+   print(f"{i}*{n}={i*n}")
