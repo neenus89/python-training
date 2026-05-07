@@ -12,4 +12,4 @@ time_worked = sign_out_time - sign_in_time
 
 hours_worked = time_worked.total_seconds() / 3600
 
-print(f"The number of hours worked = {hours_worked}")
+print(f"The number of hours worked = {hours_worked:.2f}")
