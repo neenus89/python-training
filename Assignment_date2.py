@@ -10,5 +10,5 @@ date2 = datetime.strptime(date2_input, "%Y-%m-%d")
 
 difference = date2 - date1
 
-print(f"The number of days = {difference.days}")
+print(f"The number of days = {abs(difference.days)}")
 
