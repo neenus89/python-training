@@ -3,5 +3,5 @@ s = "Hello"
 
 try:
     print(a + s)
-except:
+except TypeError:
     print("Cannot add an integer and a string.")
