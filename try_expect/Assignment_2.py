@@ -7,6 +7,9 @@ try:
     
     result = num1 / num2
     print(f"The result is {result}")
+
+except ValueError:
+    print("Invalid input. Please enter valid numbers.")
 except ZeroDivisionError:
     print("Cannot divide by zero. Please enter a valid second number.")
 except:
