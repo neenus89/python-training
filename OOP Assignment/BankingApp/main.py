@@ -1,8 +1,9 @@
 from services.bank_service import BankService
+from models.account import Account
 
 def main():
     bank_service = BankService()
-
+    Account.bank_info()
     while True:
         print("\nWelcome to the Banking App!")
         print("1. Create Account")
